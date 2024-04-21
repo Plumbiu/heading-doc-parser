@@ -1,0 +1,48 @@
+{
+  "name": "heading-doc-parser",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Simple doc parser for heading comment.",
+  "main": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/index.mjs",
+        "types": "./dist/index.d.mts"
+      },
+      "require": {
+        "default": "./dist/index.js",
+        "types": "./dist/index.d.ts"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plumbiu/heading-doc-parser"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest --run",
+    "bench": "vitest bench --run"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "markdown",
+    "md",
+    "parser",
+    "comment",
+    "blog",
+    "component"
+  ],
+  "author": "Plumbiu",
+  "license": "MIT",
+  "devDependencies": {
+    "@plumbiu/eslint-config": "^0.2.1",
+    "eslint": "^8.57.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0"
+  }
+}
