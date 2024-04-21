@@ -2,6 +2,11 @@
 
 A simple parser for doc generation.
 
+## feature
+
+- Lightweight - less than 2kb before gzip
+- Type Support - friendly with typescript
+
 # Install
 
 ```bash
