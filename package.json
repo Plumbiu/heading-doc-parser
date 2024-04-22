@@ -28,6 +28,7 @@
   "files": [
     "dist"
   ],
+  "registry": "https://registry.npmjs.org/",
   "keywords": [
     "markdown",
     "md",
